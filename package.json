@@ -1,0 +1,26 @@
+{
+  "name": "webhooks",
+  "version": "1.0.0",
+  "description": "Webhook concepts and a mini project for practical understanding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "make-payment": "node webhookSender.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miheer24/webhooks.git"
+  },
+  "keywords": [],
+  "author": "Miheer Amdekar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Miheer24/webhooks/issues"
+  },
+  "homepage": "https://github.com/Miheer24/webhooks#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "express": "^5.2.1"
+  }
+}
